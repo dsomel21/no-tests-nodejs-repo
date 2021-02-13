@@ -1,0 +1,26 @@
+{
+  "name": "no-tests-nodejs-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --extensions  .js,.ts --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsomel21/no-tests-nodejs-repo.git"
+  },
+  "keywords": [],
+  "author": "Dilraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsomel21/no-tests-nodejs-repo/issues"
+  },
+  "homepage": "https://github.com/dsomel21/no-tests-nodejs-repo#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-typescript": "^7.12.16"
+  }
+}
