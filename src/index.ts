@@ -15,8 +15,9 @@ function add(a: number, b: number): number {
   return a + b;
 }
 
-const coolCar = {
+  const coolCar: Car = {
   make: 'Ferrari',
+  // mode1: 'Testarossa', // Make sure this breaks
   model: 'Testarossa',
   engine: {
     fast: true,
@@ -27,7 +28,7 @@ const coolCar = {
 // typeof coolCar === 'obect'; // Make sure this "breaks"
 typeof coolCar === 'object';
 
-function getFormattedCarDetails(car: Car): string {
+    function getFormattedCarDetails(car: Car): string {
   const { make, model, engine } = car;
   const { cylinders, horsepower } = engine;
 
