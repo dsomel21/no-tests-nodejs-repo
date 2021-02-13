@@ -1,6 +1,6 @@
 // Types
 interface Engine {
-  fast: Boolean;
+  fast: boolean;
   cylinders: number;
   horsepower: number;
 }

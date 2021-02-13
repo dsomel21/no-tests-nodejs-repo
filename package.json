@@ -9,7 +9,8 @@
     "check-format": "npm run prettier -- --list-different",
     "format": "npm run prettier -- --write",
     "check-types": "tsc",
-    "lint": "eslint --ignore-path .gitignore . --ext .js,.ts"
+    "lint": "eslint --ignore-path .gitignore . --ext .js,.ts",
+    "check": "npm-run-all --parallel check-types check-format lint build"
   },
   "repository": {
     "type": "git",
